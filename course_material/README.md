@@ -1,24 +1,26 @@
 ## Table of contents
 
-Below, a sorted list of notebooks included in the MIR course repository is presented. At this point, the content is limited to the notebooks prepared by Baris Bozkurt (*except Lecture2_step4 by Vsevolod Eremenko and Lecture4_1 by Sankalp Gulati*) for the first part of the course focusing on basic feature extraction for MIR.
+This folder contains a list of notebooks prepared for MIR course for the [Master in Sound and Music Computing](https://www.upf.edu/web/smc) at Universitat Pompeu Fabra.
 
-In the notebooks folder, there exist two types of notebooks for some of the tasks (example: *ReviewLecture_1_HelloSpectrum.ipynb* and *ReviewLecture_1_HelloSpectrum_solution.ipynb*). *_solution.ipynb* includes the complete version and the other simply have some spaces for you to fill in as an exercise. 
+In the notebooks folder, there exist two types of notebooks for some of the tasks (example: *review_lecture-part_1-hello_spectrum.ipynb* and *review_lecture-part_1-hello_spectrum-complete.ipynb*). *-complete.ipynb* includes the complete version, and the others simply have some spaces for you to fill in as an exercise. 
 
 ## Review lectures
 
-The MIR course is offered in the second trimester of [Master in Sound and Music Computing](https://www.upf.edu/web/smc) at UPF/Barcelona and assumes the students have already taken the [Audio Signal Processing for Music Applications course](https://www.upf.edu/web/smc/audio-signal-processing-for-music-applications). As some of the brain cells and connections get deleted during the semester break, it is a good idea to consider a few review tasks and warm up for the new content. The following notebooks are prepared to help you warm up. 
+The MIR course is offered in the second trimester of the Master in Sound and Music Computing program and assumes the students have already taken the [Audio Signal Processing for Music Applications course](https://www.upf.edu/web/smc/audio-signal-processing-for-music-applications). As some of the brain cells and connections get deleted during the Christmas break, it is a good idea to consider a few review tasks. The following notebooks are prepared to help you warm up. 
 
 **"Hello world" examples for sound processing:**
-* [ReviewLecture_1_HelloSpectrum](ReviewLecture_1_HelloSpectrum.ipynb): Read a sound file, plot the log amplitude spectrum of the signal. ([the completed notebook](ReviewLecture_1_HelloSpectrum_solution.ipynb))
-* [ReviewLecture_2_EnergyOfASignal](ReviewLecture_2_EnergyOfASignal.ipynb): Computing  low-level feature and plotting synchronously with waveform of the sound signal ([the completed notebook](ReviewLecture_2_EnergyOfASignal_solution.ipynb))
-* [ReviewLecture_3_HelloSpectrogram](ReviewLecture_3_HelloSpectrogram.ipynb): Read a sound file, plot amplitude spectrogram ([the completed notebook](ReviewLecture_3_HelloSpectrogram_solution.ipynb)) 
+* [Review lecture part 1: "Hello Spectrum"](https://github.com/furkanyesiler/MIRCourse/blob/master/course_material/review_lectures/review_lecture-part_1-hello_spectrum.ipynb): Read a sound file, plot the log amplitude spectrum of the signal. ([the complete notebook](https://github.com/furkanyesiler/MIRCourse/blob/master/course_material/review_lectures/review_lecture-part_1-hello_spectrum-complete.ipynb))
+* [Review lecture part 2: Energy of a signal](ReviewLecture_2_EnergyOfASignal.ipynb): Computing  low-level feature and plotting synchronously with waveform of the sound signal ([the complete notebook](ReviewLecture_2_EnergyOfASignal_solution.ipynb))
+* [Review lecture part 3: "Hello Spectrogram"](ReviewLecture_3_HelloSpectrogram.ipynb): Read a sound file, plot amplitude spectrogram ([the complete notebook](ReviewLecture_3_HelloSpectrogram_solution.ipynb)) 
 
 ## Lecture 1:
 In the first lecture we aim to review basic flow in an MIR classification task and also start considering low-level feature extraction tasks.
 
-* [Lecture1_IntroWithACaseStudy](Lecture1_IntroWithACaseStudy.ipynb) discusses the task of automatic musical instrument classification on a limited sized dataset. The notebook includes implementation for: raw data analysis and preprocessing(segmentation), feature extraction using Essentia, analysis and preprocessing of features(normalisation), classifier design using an SVM model, testing of the classifier, finally comparative tests using various classifiers
-* [Lecture1_step1](Lecture1_step1.ipynb) considers low-level feature extraction, statistical feature extraction and further visualizing samples on statistical feature spaces ([the completed notebook](Lecture1_step1_solution.ipynb)). [Lecture1_step2_usingEssentiaStandard](Lecture1_step2_usingEssentiaStandard.ipynb) demonstrates use of Essentia-standard for feature extraction within the same settings.
-* [Lecture1_step3_cepstrum](Lecture1_step3_cepstrum.ipynb) demonstrates computation of the cepstrum and use of it for computing spectral envelope. Followed by [Lecture1_step4_essentiaExample_MFCC](Lecture1_step4_essentiaExample_MFCC.ipynb) which is an example of Essentia - MFFC function application on the same sound signal. 
+* [Lecture 1 part 0: Intro with a case study](Lecture1_IntroWithACaseStudy.ipynb) discusses the task of automatic musical instrument classification on a limited sized dataset. The notebook includes implementation for: raw data analysis and preprocessing(segmentation), feature extraction using Essentia, analysis and preprocessing of features(normalisation), classifier design using an SVM model, testing of the classifier, finally comparative tests using various classifiers
+* [Lecture 1 part 1: Low-level features](Lecture1_step1.ipynb) considers low-level feature extraction, statistical feature extraction and further visualizing samples on statistical feature spaces ([the complete notebook](Lecture1_step1_solution.ipynb)). 
+* [Lecture 1 part 2: Using Essentia.standard](Lecture1_step2_usingEssentiaStandard.ipynb) demonstrates use of Essentia-standard for feature extraction within the same settings.
+* [Lecture 1 part 3: Cepstrum](Lecture1_step3_cepstrum.ipynb) demonstrates computation of the cepstrum and use of it for computing spectral envelope. 
+* [Lecture 1 part 4: Essentia MFCC example](Lecture1_step4_essentiaExample_MFCC.ipynb) which is an example of Essentia - MFFC function application on the same sound signal. 
 
 ## Lecture 2:
 
