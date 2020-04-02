@@ -61,7 +61,7 @@ Introduction to MIR using symbolic data
 * [Slides part 2](https://github.com/furkanyesiler/MIRCourse/blob/master/course_material/mir_applications/nlp_for_mir/nlp_for_mir_tutorial_part2.pdf)
 
 ### Music version identification (by Furkan Yesiler)
-* [Jupyter notebook](#)
+* [Jupyter notebook](https://github.com/furkanyesiler/MIRCourse/blob/master/course_material/mir_applications/music_version_identification/music_version_identification_tutorial.ipynb)
 
 ### Audio source separation (by Jordi Pons)
 * [Slides](https://github.com/furkanyesiler/MIRCourse/blob/master/course_material/mir_applications/audio_source_separation/audio_source_separation_tutorial.pdf)
